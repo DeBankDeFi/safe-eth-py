@@ -43,7 +43,7 @@ gnosis.eth
   with an ethereum node. Uses web3 and raw rpc calls for things not supported in web3.
   Only ``http/https`` urls are supported for the node url.
 
-``EthereumClient`` has some utils that improve a lot performance using Ethereum nodes, like
+``EthereumClient`` has some utils that improve a lot of performance using Ethereum nodes, like
 the possibility of doing ``batch_calls`` (a single request making read-only calls to multiple contracts):
 
 .. code-block:: python
