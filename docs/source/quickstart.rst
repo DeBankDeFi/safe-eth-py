@@ -195,7 +195,7 @@ On ``gnosis.protocol`` there're classes to work with `Gnosis Protocol v2 <https:
   from gnosis.protocol import Order, OrderKind, GnosisProtocolAPI
 
   account_address = ''  # Fill with checksummed version of a Gnosis Protocol user address
-  account_private_key = ''  # Fill with private key of a user address
+  account_private_key = ''  # Fill with the private key of a user address
   gnosis_protocol_api = GnosisProtocolAPI(EthereumNetwork.RINKEBY)
   print(gnosis_protocol_api.get_trades(owner=account_address))
   buy_amount = gnosis_protocol_api.get_estimated_amount(base_token, quote_token, OrderKind.SELL, sell_amount)
